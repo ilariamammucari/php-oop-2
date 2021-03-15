@@ -1,0 +1,8 @@
+                tipo                            attributo
+id              numero - BIGINT                 primary key (attributi sottointesi: AI, UNIQUE, NOTNULL)
+nome            stringa - VARCHAR(25)           NOTNULL
+cognome         stringa - VARCHAR(25)           NOTNULL
+eta             data - DATE(YYY-MM-GG)          NOTNULL
+email           stringa - VARCHAR(40)           NOTNULL
+username        stringa - VARCHAR(25)           NOTNULL
+password        stringa - VARCHAR(25)           NOTNULL
