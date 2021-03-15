@@ -1,6 +1,4 @@
 <?php
-require_once 'User.php';
-
 class Employee extends User {
     public $eta;
     public $sconto_abbonamento;
@@ -22,5 +20,4 @@ class Employee extends User {
     public function getSconto(){
         return $this->sconto_abbonamento;
     }
-
 }
